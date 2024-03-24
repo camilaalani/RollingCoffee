@@ -16,11 +16,9 @@ const ItemProducto = () => {
       <td>Bebida caliente</td>
       <td className="text-center">
         <Button variant="warning" className="me-lg-2">
-          editar
           <i className="bi bi-pencil-square"></i>
         </Button>
         <Button variant="danger">
-          borrar
           <i className="bi bi-trash"></i>
         </Button>
       </td>
