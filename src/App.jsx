@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Menu></Menu>
-      {/*<Inicio></Inicio>*/}
-      <Administrador></Administrador>
+      <Inicio></Inicio>
+      {/*<Administrador></Administrador>*/}
       {/*<Error404></Error404>*/}
       <Footer></Footer>
     </>
