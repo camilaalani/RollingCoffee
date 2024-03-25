@@ -1,21 +1,51 @@
 import { Form, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form";
-import { crearProductoAPI } from "../../helpers/queries";
+import { crearProductoAPI, obetenerProductoAPI } from "../../helpers/queries";
 import Swal from "sweetalert2";
+import { useEffect } from "react";
+import { useParams } from "react-router";
 
 const FormularioProducto = ({editar, titulo}) => {
   const {
     register,
     handleSubmit,
     formState: { errors },
-    reset
+    reset,
+    setValue
   } = useForm();
+  const {id} = useParams();
+
+  useEffect(()=>{
+    //solo si estoy editando
+    if(editar){
+      cargarDatosFormulario();
+    }
+  }, [])
+
+  const cargarDatosFormulario = async()=>{
+    const respuesta = await obetenerProductoAPI(id);
+    if(respuesta.status === 200){
+      const productoBuscado = await respuesta.json();
+      //cargar los datos del productoBuscado en el formulario
+      setValue("nombreProducto", productoBuscado.nombreProducto);
+      setValue("precio", productoBuscado.precio);
+      setValue("imagen", productoBuscado.imagen);
+      setValue("categoria", productoBuscado.categoria);
+      setValue("descripcion_breve", productoBuscado.descripcion_breve);
+      setValue("descripcion_amplia", productoBuscado.descripcion_amplia);
+    }else{
+      Swal.fire({
+        title: "Ocurrió un error",
+        text: `Intente realizar esta operación en unos minutos`,
+        icon: "error"
+      });
+    }
+  }
 
   const productoValidado = async(producto) => {
     if(editar){
       //agregar la logica para editar el producto con la api
     }else{
-      console.log(producto);
     //Esta es la logica cuando quiero crear un producto
     const respuesta = await crearProductoAPI(producto);
     if(respuesta.status === 201){
@@ -101,8 +131,8 @@ const FormularioProducto = ({editar, titulo}) => {
             <option value="">Seleccione una opcion</option>
             <option value="Infusiones">Infusiones</option>
             <option value="Batidos">Batidos</option>
-            <option value="dulce">Dulce</option>
-            <option value="salado">Salado</option>
+            <option value="Dulce">Dulce</option>
+            <option value="Salado">Salado</option>
           </Form.Select>
           <Form.Text className="text-danger">{errors.categoria?.message}</Form.Text>
         </Form.Group>

@@ -14,6 +14,18 @@ export const leerProductosAPI= async()=>{
 }
 
 
+// GET de 1 producto
+export const obetenerProductoAPI= async(id)=>{
+    try{
+        const respuesta = await fetch(`${URI_PRODUCTOS}/${id}`);
+        //const productoBuscado = await respuesta.json();
+        return respuesta;
+    }catch (error){
+        console.log(error);
+    }
+}
+
+
 // POST
 export const crearProductoAPI= async(productoNuevo)=>{
     try {
