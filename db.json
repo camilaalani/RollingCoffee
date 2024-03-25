@@ -37,6 +37,24 @@
       "categoria": "dulce",
       "descripcion_breve": "fdjislghjs",
       "descripcion_amplia": "rsigotsrgnrnsñbngjorsnnrsbnuihsu j jnbuisrhvihfsuohvfushuigfesh"
+    },
+    {
+      "id": "4621",
+      "nombreProducto": "medialuna",
+      "precio": "400",
+      "imagen": "https://pics.filmafifnity.com/napoleon-775472086-large.jpg",
+      "categoria": "dulce",
+      "descripcion_breve": "rica medialuna con alnibar",
+      "descripcion_amplia": "la medialuna es la mejor creacion entre todas las facturas yo amo infinitamente las medialunas esponjositas y viscosas mmm q ñicoooo"
+    },
+    {
+      "id": "b973",
+      "nombreProducto": "medialunaaa",
+      "precio": "450",
+      "imagen": "https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg?auto=compress&cs=tinysrgb&w=600",
+      "categoria": "dulce",
+      "descripcion_breve": "sgnnsgvnjsngonrs",
+      "descripcion_amplia": "ushugvhsruihbugrshbogbnjgfsnboiiorshjitrwughjrthbjujrijojs"
     }
   ],
   "usuarios": [
