@@ -1,30 +1,49 @@
 {
-    "productos":[
-        {
-            "nombreProducto": "café",
-            "precio": 1000,
-            "categoria": "Infusiones",
-            "descripcion_breve": "café rico",
-            "descripcion_amplia": "bebida de café concentrada y aromática que se prepara haciendo pasar agua caliente a alta presión por granos de café muy finamente molidos.",
-            "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "disponibilidad": true,
-            "id": "1"
-        },
-        {
-            "nombreProducto": "Té",
-            "precio": 300,
-            "categoria": "Infusiones",
-            "descripcion_breve": "Té rico",
-            "descripcion_amplia": "bebida de Té concentrada y aromática que se prepara haciendo pasar agua caliente a alta presión por granos de café muy finamente molidos.",
-            "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "disponibilidad": true,
-            "id": "2"
-        }
-    ],
-    "usuarios":[
-        {
-            "email": "prueba@gmail.com",
-            "password": "123"
-        }
-    ]
+  "productos": [
+    {
+      "nombreProducto": "café",
+      "precio": 1000,
+      "categoria": "Infusiones",
+      "descripcion_breve": "café rico",
+      "descripcion_amplia": "bebida de café concentrada y aromática que se prepara haciendo pasar agua caliente a alta presión por granos de café muy finamente molidos.",
+      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "disponibilidad": true,
+      "id": "1"
+    },
+    {
+      "nombreProducto": "Té",
+      "precio": 300,
+      "categoria": "Infusiones",
+      "descripcion_breve": "Té rico",
+      "descripcion_amplia": "bebida de Té concentrada y aromática que se prepara haciendo pasar agua caliente a alta presión por granos de café muy finamente molidos.",
+      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "disponibilidad": true,
+      "id": "2"
+    },
+    {
+      "id": "fd83",
+      "nombreProducto": "tesito",
+      "precio": "500",
+      "imagen": "https://pics.filmafifnity.com/dew_drop_diaries-279768364-large.jpg",
+      "categoria": "Infusiones",
+      "descripcion_breve": "yfytfghjgbghcffgvgh",
+      "descripcion_amplia": "yufgfyugyugyfyjhvhjcjtdtygkucxfgdxghcghxdcghxrfsgcgfxfdxfgcgmcdfg,kfvgfkgh"
+    },
+    {
+      "id": "6802",
+      "nombreProducto": "mini torta",
+      "precio": "1000",
+      "imagen": "https://pics.filmafifnity.com/napoleon-775472086-large.jpg",
+      "categoria": "dulce",
+      "descripcion_breve": "fdjislghjs",
+      "descripcion_amplia": "rsigotsrgnrnsñbngjorsnnrsbnuihsu j jnbuisrhvihfsuohvfushuigfesh"
+    }
+  ],
+  "usuarios": [
+    {
+      "email": "prueba@gmail.com",
+      "password": "123",
+      "id": "39e5"
+    }
+  ]
 }
