@@ -9,25 +9,6 @@
       "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "disponibilidad": true,
       "id": "1"
-    },
-    {
-      "nombreProducto": "Té",
-      "precio": 300,
-      "categoria": "Infusiones",
-      "descripcion_breve": "Té rico",
-      "descripcion_amplia": "bebida de Té concentrada y aromática que se prepara haciendo pasar agua caliente a alta presión por granos de café muy finamente molidos.",
-      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "disponibilidad": true,
-      "id": "2"
-    },
-    {
-      "id": "b973",
-      "nombreProducto": "medialunaaa",
-      "precio": "450",
-      "imagen": "https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg?auto=compress&cs=tinysrgb&w=600",
-      "categoria": "dulce",
-      "descripcion_breve": "sgnnsgvnjsngonrs",
-      "descripcion_amplia": "ushugvhsruihbugrshbogbnjgfsnboiiorshjitrwughjrthbjujrijojs"
     }
   ],
   "usuarios": [

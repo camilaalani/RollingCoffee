@@ -14,15 +14,23 @@ const ItemProducto = ({producto}) => {
       cancelButtonColor: "#d33",
       confirmButtonText: "Borrar",
       cancelButtonText: "Cancelar"
-    }).then((result) => {
+    }).then(async(result) => {
       if (result.isConfirmed) {
-        borrarProductoAPI(producto.id)
-
-        Swal.fire({
-          title: "Deleted!",
-          text: "Your file has been deleted.",
+        const respuesta = await borrarProductoAPI(producto.id)
+        if(respuesta.status === 200){
+          Swal.fire({
+          title: "Producto eliminado",
+          text: `El producto "${producto.nombreProducto}" fue eliminado correctamente`,
           icon: "success"
         });
+        //falta actualizar la tabla
+        }else{
+          Swal.fire({
+            title: "Ocurrió un error",
+            text: `El producto "${producto.nombreProducto}" no fue eliminado, intente realizar esta operación en unos minutos`,
+            icon: "error"
+          });
+        }
       }
     });
   }
