@@ -9,6 +9,33 @@
       "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "disponibilidad": true,
       "id": "1"
+    },
+    {
+      "id": "3479",
+      "nombreProducto": "medialuna",
+      "precio": "400",
+      "imagen": "https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg?auto=compress&cs=tinysrgb&w=600",
+      "categoria": "dulce",
+      "descripcion_breve": "nfvjfsvjfsvhujfhsvf",
+      "descripcion_amplia": "hdhddjecibebfdvkfaiuhoiqrhfuirevjfbadhvbifahvlvbiuahvuohiuvhruñahvuoe"
+    },
+    {
+      "id": "c257",
+      "nombreProducto": "torta",
+      "precio": "5000",
+      "imagen": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "categoria": "dulce",
+      "descripcion_breve": "muy rica",
+      "descripcion_amplia": "ktrgsbnoengvnfengvjreignvirnbnnbofnjfijirejgijejireiogvjofsnjnsnklsd"
+    },
+    {
+      "id": "28cb",
+      "nombreProducto": "shake",
+      "precio": "403",
+      "imagen": "https://images.pexels.com/photos/434295/pexels-photo-434295.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "categoria": "Batidos",
+      "descripcion_breve": "muur delicicoosp",
+      "descripcion_amplia": "egnjrenofenvnfobnfejivjeiogjiegshbdribseirboaregvub rabfireb lbsgbiresjv"
     }
   ],
   "usuarios": [
