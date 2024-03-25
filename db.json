@@ -11,13 +11,13 @@
       "id": "1"
     },
     {
-      "id": "3479",
       "nombreProducto": "medialuna",
-      "precio": "400",
+      "precio": "449",
       "imagen": "https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg?auto=compress&cs=tinysrgb&w=600",
       "categoria": "Dulce",
       "descripcion_breve": "nfvjfsvjfsvhujfhsvf",
-      "descripcion_amplia": "hdhddjecibebfdvkfaiuhoiqrhfuirevjfbadhvbifahvlvbiuahvuohiuvhruñahvuoe"
+      "descripcion_amplia": "hdhddjecibebfdvkfaiuhoiqrhfuirevjfbadhvbifahvlvbiuahvuohiuvhruñahvuoe",
+      "id": "3479"
     },
     {
       "id": "c257",
@@ -38,13 +38,13 @@
       "descripcion_amplia": "egnjrenofenvnfobnfejivjeiogjiegshbdribseirboaregvub rabfireb lbsgbiresjv"
     },
     {
-      "id": "bcfb",
       "nombreProducto": "Mini Torta Chocolate",
-      "precio": "1499",
+      "precio": "1100",
       "imagen": "https://www.estherhelados.com.ar/webfiles/estherhelados/productos/133/1_1000x1000.jpg",
       "categoria": "Dulce",
-      "descripcion_breve": "Mini Torta Chocolate y Nuez",
-      "descripcion_amplia": "Brownie, helado de chocolate c/nuez , pionono, dulce de leche repostero y ganache de chocolate."
+      "descripcion_breve": "Mini Torta Chocolate y Nueces",
+      "descripcion_amplia": "Brownie, helado de chocolate c/nuez , pionono, dulce de leche repostero y ganache de chocolate.",
+      "id": "bcfb"
     }
   ],
   "usuarios": [
